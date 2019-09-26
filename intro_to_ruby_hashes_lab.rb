@@ -3,19 +3,19 @@ def new_hash
 end
 
 def my_hash
-  my_hash = {"key" => 5}
+  my_hash_return = {"key" => 5}
 end
 
 def pioneer
-  my_hash = 
+  my_hash = {name: 'Grace Hopper'}
 end
 
 def id_generator
-  # return a hash with a key :id assigned to positive integer
+  my_hash = {:id => 5}
 end
 
 def my_hash_creator(key, value)
-  # return a hash that includes the key and value parameters passed into this method
+  my_hash = {key => value}
 end
 
 def read_from_hash(hash, key)
